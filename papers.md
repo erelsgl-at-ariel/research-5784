@@ -35,10 +35,8 @@
 * [Using dual approximation algorithms for scheduling problems (Hochbaum and Shomys, 1987)](https://doi.org/10.1145/7531.7535) - לזוג (פרקים 1--4, עמודים 1--12)
 * ~[Multi-way number-partitioning (Korf, 2009)](http://ijcai.org/papers09/Papers/IJCAI09-096.pdf) - לזוג.~
 תפוס
-* ~[Hybrid recursive number partitioning (Korf, 2011)](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewPaper/3364) - לזוג.~
-תפוס
-* ~[Improved bin completion (Schreiber and Korf, 2013)](https://www.ijcai.org/Proceedings/13/Papers/103.pdf) - לזוג.~
-תפוס
+* ~[Hybrid recursive number partitioning (Korf, 2011)](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewPaper/3364) - לזוג.~תפוס
+* ~[Improved bin completion (Schreiber and Korf, 2013)](https://www.ijcai.org/Proceedings/13/Papers/103.pdf) - לזוג.~תפוס
 * ~[Search strategies for number partitioning (Moffitt, 2013)](https://www.ijcai.org/Proceedings/13/Papers/099.pdf) - ליחיד או לזוג.~ - תפוס (ניר)
 * ~[Optimally Scheduling Small Numbers of Identical Parallel Machines (Korf and Schreiber, 2013)](https://ojs.aaai.org/index.php/ICAPS/article/view/13544) - ליחיד או לזוג.~ - תפוס (יואל).
 * ~[Cached iterative weakening (Schreiber and Korf, 2014)](https://ojs.aaai.org/index.php/AAAI/article/view/9122) - ליחיד או לזוג~ - תפוס (איתן ושילה).
@@ -99,7 +97,7 @@ SIAM Journal on Discrete Mathematics - ליחיד (אלגוריתמים 1, 2).
 * [An improved approximation algorithm for maximin shares (Garg and Taki, 2020)](https://www.sciencedirect.com/science/article/pii/S0004370221000989) - לזוג.
 * [Almost Envy-Free Allocations with Connected Bundles (Bilo et al, 2018)](https://arxiv.org/abs/1808.09406) - לזוג.
 * [EFX Exists for Three Agents (Chaudhury et al, 2020))](https://arxiv.org/abs/2002.05119) - לזוג.
-[A Little Charity Guarantees Almost Envy-Freeness (Chaudhury et al, 2020)](https://epubs.siam.org/doi/abs/10.1137/20M1359134) - לזוג.
+* [A Little Charity Guarantees Almost Envy-Freeness (Chaudhury et al, 2020)](https://epubs.siam.org/doi/abs/10.1137/20M1359134) - לזוג.
 * [High-Multiplicity Fair Allocation Made More Practical (Bredereck et al, 2021)](https://dl.acm.org/doi/abs/10.5555/3463952.3463988) - לזוג.
 * [Equitable distribution of indivisible objects (Demko and Hill, 1988)](https://www.sciencedirect.com/science/article/abs/pii/0165489688900479) - לזוג.
 * [Worst case compromises in matroids (Gourvet et al, 2015)](https://www.sciencedirect.com/science/article/pii/S0304397515003722#br0150) - לזוג.
