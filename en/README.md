@@ -12,7 +12,6 @@ These abilities will help you whether you decide to work in the industry or in a
 * In the software industry, the ability to understand a research paper will enable you to keep pace with recent innovations, and apply them in your work.
 * In academy, the ability to program a research algorithm will enable you to write simulations and conduct comparative studies between algorithms.
 
-See:
-* [Course grading rules](grade-rules.md)
-* [Paper suggestions](../papers.md) - the list should update at the beginning of the semester.
+See
+* [Syllabus for last year](syllabus.5783.pdf)
 
