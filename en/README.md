@@ -13,5 +13,5 @@ These abilities will help you whether you decide to work in the industry or in a
 * In academy, the ability to program a research algorithm will enable you to write simulations and conduct comparative studies between algorithms.
 
 See
-* [Syllabus for last year](syllabus.5783.pdf)
+* [Last year syllabus](syllabus.5783.pdf)
 
