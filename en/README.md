@@ -3,11 +3,14 @@
 
 ## Course goals 
 
-The course aims to show you how to connect the world of theoretic research in computer science, with the world of practical programming. By the end of the course, you will know how to:
+The course aims to connect the world of theoretic research in computer science, with the world of practical programming. During the course, you will choose a research-level paper containing new algorithms, program the algorithms in Python, and integrate them into an appropriate open-source library. By the end of the course, you will know how to:
 
-* Read a research-level paper describing a new algorithm;
-* Understand the operation of the algorithm and its advantages over existing algorithms;
+* Learn a new algorithm published in a recent research paper;
+* Construct running examples for understanding the operation of the algorithm;
 * Program the algorithm in Python;
+* Thoroughy test your implementation;
+* Measure and improve the performance of your algorithm;
+* Create a simple website for deomnstrating your algorithm;
 * Publish the algorithm in an open-source library.
 
 These abilities will help you whether you decide to work in the industry or in academy:
