@@ -13,9 +13,16 @@
 ## אלגוריתמים לחלוקת תקציב
 
 האלגוריתמים יכולים להשתלב בספרייה 
-[pabutools](https://github.com/pbvoting/pabutools).
+[pabutools](https://github.com/pbvoting/pabutools/issues/21).
 
-* [ראו כאן](https://github.com/pbvoting/pabutools/issues/21).
+* [Proportionally Representative Participatory Budgeting: Axioms and Algorithms (Aziz Lee and Talmon 2017)](https://arxiv.org/abs/1711.08226) - ליחיד (אלגוריתם 1).  מוסבר גם אצל [Rey and Maly 2023](https://arxiv.org/abs/2303.00621) - הגדרה 5.
+או לזוג - בתוספת המאמר הקצר הזה: 
+[Efficient, traceable, and numerical error-free implementation of the MMS voting rule (Fernandez 2023)](https://arxiv.org/abs/2309.15104).
+* [Proportionally Representative Participatory Budgeting with Ordinal Preferences (Aziz and Lee 2020)](https://arxiv.org/abs/1911.00864) - ליחיד (אלגוריתם 1).
+* [Participatory Budgeting with Cumulative Votes (Skowron Slinko Szufa and Talmon 2020)](https://arxiv.org/abs/2009.02690) - ליחיד (פרק 5) או לזוג (גם פרק 4). 
+
+
+
 
 
 
