@@ -9,6 +9,8 @@
 * לחפש את כותרת המאמר ב [Google Scholar](https://scholar.google.com).
 * לחפש את המאמר בדף-הבית של המחברים.
 
+**לפני שמתחילים לעבוד על המאמר יש לקבל אישור ממני, כדי לוודא שהמאמר לא תפוס**.
+
 
 ## אלגוריתמים לחלוקת תקציב
 
@@ -23,10 +25,6 @@
 
 
 
-
-
-
-
 ## אלגוריתמים בגרפים
 
 האלגוריתמים יכולים להשתלב בספרייה 
@@ -37,7 +35,9 @@
 * [Fair integral network flow (Frank and Murota, 2022)](https://arxiv.org/abs/1907.02673) - לזוג.
 * [Dividing a Graphical Cake (Bei and Suksompong, 2019)](https://arxiv.org/pdf/1910.14129.pdf#subsection.4.1) - ליחיד (פרק 4).
 * [Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - לזוג (או ליחיד בלי פרק 5).
-* ~[Approximability of the Firefighter Problem (Anshelevich, Chakrabarty, Hate and Swamy, 2012)](https://link.springer.com/article/10.1007/s00453-010-9469-y) - ליחיד (בעיה אחת) או לזוג (שתי הבעיות). ~ תפוס
+* ~[Approximability of the Firefighter Problem (Anshelevich, Chakrabarty, Hate and Swamy, 2012)](https://link.springer.com/article/10.1007/s00453-010-9469-y) -  ~ תפוס
+* [Solving the Many to Many assignment problem by improving the Kuhn–Munkres algorithm with backtracking (Zhu Liu Zhang Zhu Teng Teng 2016)](https://www.sciencedirect.com/science/article/pii/S0304397516000037) - לזוג.
+
 
 
 ## אלגוריתמי תזמון תהליכים וחלוקת מספרים
@@ -59,6 +59,7 @@
 * ~[Course Allocation by Proxy Auction (Kominers et al, 2010)](https://link.springer.com/chapter/10.1007/978-3-642-17572-5_49) - ליחיד~ - תפוס (אביהו).
 * [Course Match: A Large-Scale Implementation of Approximate Competitive Equilibrium from Equal Incomes for Combinatorial  Allocation (2017)](https://pubsonline.informs.org/doi/10.1287/opre.2016.1544) - לזוג - תפוס (אורי ואביב).
 * ~[Finding Approximate Competitive Equilibria: Efficient and Fair Course Allocation (2010)](https://dl.acm.org/doi/abs/10.5555/1838206.1838323) - ליחיד~ - תפוס (תהל).
+* [Machine Learning-Powered Course Allocation (Soumalias Zamanlooy Weissteiner Seuken 2022)](https://arxiv.org/abs/2210.00954) - לזוג (דרוש ידע בלמידת מכונה).
 * אפשר למצוא עוד מאמרים בנושא כאן: [https://en.wikipedia.org/wiki/Course_allocation](Course allocation).
 
 
@@ -67,10 +68,11 @@
 האלגוריתמים יכולים להשתלב בספרייה 
 [fairpyx](https://github.com/ariel-research/fairpyx).
 
-* [Approximately Fair Allocations of Indivisible Goods (Lipton et al., 2004)](https://dl.acm.org/doi/pdf/10.1145/988772.988792) - ליחיד (משפטים 2.1, 3).
+* [High-Multiplicity Fair Allocation Made More Practical (Bredereck et al, 2021)](https://dl.acm.org/doi/abs/10.5555/3463952.3463988) - לזוג.
 * ~[Fair Division under Ordinal Preferences (Bouveret et al, 2010)](https://ebooks.iospress.nl/doi/10.3233/978-1-60750-606-5-387) - ליחיד.~
 תפוס
 * ~[On Fair Division under Heterogeneous Matroid Constraints (Dror et al, 2021)](https://arxiv.org/abs/2010.07280)~ - תפוס.
+* [Simplification and Improvement of MMS Approximation (Akrami Garg Sharma Taki 2023)](https://arxiv.org/abs/2303.16788) - לזוג או שלישיה.
 * [Efficient nearly-fair division with capacity constraints (Shoshan et al, 2022)](https://arxiv.org/abs/2205.07779) - ליחיד.
 * [Worst-Case Allocations (Markakis and Psomas, 2011)](https://link.springer.com/chapter/10.1007/978-3-642-25510-6_24) - ליחיד (אלגוריתם 1).
 * [Proportional division of indivisible items (Brams et al, 2014)](https://mpra.ub.uni-muenchen.de/56587/) - ליחיד.
@@ -81,10 +83,7 @@
 * [Approximation Algorithms for Maximin Fair Division (Barman and Krishnamurthy, 2020)](https://dl.acm.org/doi/abs/10.1145/3381525) - ליחיד (אלגוריתמים 1, 2, 5). 
 * [Fair Division Under Cardinality Constraints (Barman and Biswas, 2018)](https://arxiv.org/abs/1804.09521) - ליחיד (אלגוריתמים 1, 2).
 * [Equitable Allocations of Indivisible Goods (Freeman et al, 2019)](https://arxiv.org/abs/1905.10656) - ליחיד (משפטים 2, 3).
-* [Almost Envy-Freeness with General Valuations (Plaut and Roughgarden, 2020)](https://dl.acm.org/doi/abs/10.1145/3140756).
-SIAM Journal on Discrete Mathematics - ליחיד (אלגוריתמים 1, 2).
-* ~[A note on the undercut procedure (Aziz 2015)](https://link.springer.com/article/10.1007/s00355-015-0877-4) - ליחיד.~
-תפוס
+* [Almost Envy-Freeness with General Valuations (Plaut and Roughgarden, 2020)](https://dl.acm.org/doi/abs/10.1145/3140756) - ליחיד (אלגוריתמים 1, 2).
 * [Fair Division of Goods in the Shadow of Market Values (Dall'Aglio, 2021)](https://arxiv.org/abs/1910.01615) - ליחיד (עד פרק 3) או לזוג (עם פרק 4).
 * [The Combinatorial Assignment Problem (Budish, 2011)](https://doi.org/10.1086%2F664613) - לזוג.
 * [Minimizing envy and maximizing average Nash social welfare (Nguyen and Rothe, 2014)](https://doi.org/10.1137%2F0117039) - לזוג.
@@ -93,9 +92,13 @@ SIAM Journal on Discrete Mathematics - ליחיד (אלגוריתמים 1, 2).
 * [Almost Envy-Free Allocations with Connected Bundles (Bilo et al, 2018)](https://arxiv.org/abs/1808.09406) - לזוג.
 * [EFX Exists for Three Agents (Chaudhury et al, 2020))](https://arxiv.org/abs/2002.05119) - לזוג.
 * [A Little Charity Guarantees Almost Envy-Freeness (Chaudhury et al, 2020)](https://epubs.siam.org/doi/abs/10.1137/20M1359134) - לזוג.
-* [High-Multiplicity Fair Allocation Made More Practical (Bredereck et al, 2021)](https://dl.acm.org/doi/abs/10.5555/3463952.3463988) - לזוג.
 * [Equitable distribution of indivisible objects (Demko and Hill, 1988)](https://www.sciencedirect.com/science/article/abs/pii/0165489688900479) - לזוג.
 * [Worst case compromises in matroids (Gourvet et al, 2015)](https://www.sciencedirect.com/science/article/pii/S0304397515003722#br0150) - לזוג.
+* [Approximately Fair Allocations of Indivisible Goods (Lipton et al., 2004)](https://dl.acm.org/doi/pdf/10.1145/988772.988792) - ליחיד (משפטים 2.1, 3).
+* [Towards Optimal Subsidy Bounds for Envy-freeable Allocations (Kawase Makino Sumita Tamura Yokoo 2023)](https://arxiv.org/abs/2308.11230)
+* [Fair Division with Subsidy (Halpern and Shah, 2019)](https://link.springer.com/chapter/10.1007/978-3-030-30473-7_25) - לזוג (Proposition 1, Theorem 2, Theorem 5, Proposition 4, Theorem 6, Appendix B).
+* [Computing envy-freeable allocations with limited subsidies (Caragiannis and Ioannidis, 2021)](https://arxiv.org/abs/2002.02789) - ליחיד (פרק 3). 
+
 
 
 ## אלגוריתמים מאוניברסיטת אריאל
@@ -106,15 +109,6 @@ SIAM Journal on Discrete Mathematics - ליחיד (אלגוריתמים 1, 2).
 * [Beyond majority: Label ranking ensembles based on voting rules (Werbin-Ofir, Dery, Shmueli, 2019)](https://www.sciencedirect.com/science/article/pii/S0957417419304221) - ליחיד.
 * [BoostLR: a boosting-based learning ensemble for label ranking tasks (Dery and Shmueli, 2020)](https://ieeexplore.ieee.org/abstract/document/9205798/) - ליחיד.
 * [Star-Tracker Algorithm for Smartphones and Commercial Micro-Drones (Marbel,  Boaz Ben-Moshe, Yozevitch, 2020)](https://www.mdpi.com/1424-8220/20/4/1106) - ליחיד (אלגוריתמים 1,2) או לזוג (גם אלגוריתמים 3,4).
-
-
-## אלגוריתמי חלוקת חפצים וכסף
-
-האלגוריתמים יכולים להשתלב בספרייה 
-[fairpyx](https://github.com/erelsgl/fairpyx).
-
-* [Fair Division with Subsidy (Halpern and Shah, 2019)](https://link.springer.com/chapter/10.1007/978-3-030-30473-7_25) - לזוג (Proposition 1, Theorem 2, Theorem 5, Proposition 4, Theorem 6, Appendix B).
-* [Computing envy-freeable allocations with limited subsidies (Caragiannis and Ioannidis, 2021)](https://arxiv.org/abs/2002.02789) - ליחיד (פרק 3). 
 
 
 ## עוד אלגוריתמים
