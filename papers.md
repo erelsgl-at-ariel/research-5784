@@ -59,7 +59,9 @@
 * ~[Course Allocation by Proxy Auction (Kominers et al, 2010)](https://link.springer.com/chapter/10.1007/978-3-642-17572-5_49) - ליחיד~ - תפוס (אביהו).
 * [Course Match: A Large-Scale Implementation of Approximate Competitive Equilibrium from Equal Incomes for Combinatorial  Allocation (2017)](https://pubsonline.informs.org/doi/10.1287/opre.2016.1544) - לזוג - תפוס (אורי ואביב).
 * ~[Finding Approximate Competitive Equilibria: Efficient and Fair Course Allocation (2010)](https://dl.acm.org/doi/abs/10.5555/1838206.1838323) - ליחיד~ - תפוס (תהל).
-* [Machine Learning-Powered Course Allocation (Soumalias Zamanlooy Weissteiner Seuken 2022)](https://arxiv.org/abs/2210.00954) - לזוג (דרוש ידע בלמידת מכונה).
+* [Machine Learning-Powered Course Allocation (Soumalias Zamanlooy Weissteiner Seuken, 2022)](https://arxiv.org/abs/2210.00954) - לזוג (דרוש ידע בלמידת מכונה).
+* [Course bidding at business schools (Sonmez and Unver, 2010)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-2354.2009.00572.x) - ליחיד (האלגוריתם בפרק 5).
+* [The Combinatorial Assignment Problem (Budish, 2011)](https://doi.org/10.1086%2F664613) - לזוג.
 * אפשר למצוא עוד מאמרים בנושא כאן: [https://en.wikipedia.org/wiki/Course_allocation](Course allocation).
 
 
@@ -85,7 +87,6 @@
 * [Equitable Allocations of Indivisible Goods (Freeman et al, 2019)](https://arxiv.org/abs/1905.10656) - ליחיד (משפטים 2, 3).
 * [Almost Envy-Freeness with General Valuations (Plaut and Roughgarden, 2020)](https://dl.acm.org/doi/abs/10.1145/3140756) - ליחיד (אלגוריתמים 1, 2).
 * [Fair Division of Goods in the Shadow of Market Values (Dall'Aglio, 2021)](https://arxiv.org/abs/1910.01615) - ליחיד (עד פרק 3) או לזוג (עם פרק 4).
-* [The Combinatorial Assignment Problem (Budish, 2011)](https://doi.org/10.1086%2F664613) - לזוג.
 * [Minimizing envy and maximizing average Nash social welfare (Nguyen and Rothe, 2014)](https://doi.org/10.1137%2F0117039) - לזוג.
 * [Finding Fair and Efficient Allocations (Barman et al, 2018)](https://dl.acm.org/doi/abs/10.1145/3219166.3219176) - לזוג.
 * [An improved approximation algorithm for maximin shares (Garg and Taki, 2020)](https://www.sciencedirect.com/science/article/pii/S0004370221000989) - לזוג.
