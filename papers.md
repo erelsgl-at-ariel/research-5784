@@ -21,7 +21,7 @@
 או לזוג - בתוספת המאמר הקצר הזה: 
 [Efficient, traceable, and numerical error-free implementation of the MMS voting rule (Fernandez 2023)](https://arxiv.org/abs/2309.15104).
 * [Proportionally Representative Participatory Budgeting with Ordinal Preferences (Aziz and Lee 2020)](https://arxiv.org/abs/1911.00864) - ליחיד (אלגוריתם 1).
-* [Participatory Budgeting with Cumulative Votes (Skowron Slinko Szufa and Talmon 2020)](https://arxiv.org/abs/2009.02690) - ליחיד (פרק 5) או לזוג (גם פרק 4). 
+* ~[Participatory Budgeting with Cumulative Votes (Skowron Slinko Szufa and Talmon 2020)](https://arxiv.org/abs/2009.02690) - ליחיד (פרק 5) או לזוג (גם פרק 4). ~ - תפוס (אחיה)
 
 
 
@@ -139,7 +139,7 @@
 
 מאמרים על  [חלוקת מצולעים](https://en.wikipedia.org/wiki/Polygon_partition):
 
-* [Minimum edge length partitioning of rectilinear polygons (Lingas, Pinter, Rivest, Shamir, 1982)](https://people.csail.mit.edu/rivest/pubs/LPRS82.pdf) - ליחיד (פרקים 1--3).
+* ~[Minimum edge length partitioning of rectilinear polygons (Lingas, Pinter, Rivest, Shamir, 1982)](https://people.csail.mit.edu/rivest/pubs/LPRS82.pdf) - ליחיד (פרקים 1--3) ~    תפוס (דביר).
 * [Graph-Theoretic Solutions to Computational Geometry Problems, Eppstein 2009](https://arxiv.org/abs/0908.3916) - לזוג.
 * [Counting Blanks in Polygonal Arrangements (Akopyan and Segal-Halevi, 2018)](https://arxiv.org/abs/1604.00960) - לזוג.
 * [Fast triangulation of simple polygons (Hertel, Mehlhorn, 1985)](https://www.sciencedirect.com/science/article/pii/S0019995885800449) - לזוג.
