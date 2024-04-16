@@ -5,10 +5,14 @@ The example module supplies one function, factorial().  For example,
 
 >>> factorial(5)
 120
+
+Programmer: Erel Segal-Halevi
+Date: 2022
 """
 
 def factorial(n):
-    """Return the factorial of n, an exact integer >= 0.
+    """
+    Return the factorial of n, an exact integer >= 0.
 
     >>> [factorial(n) for n in range(6)]
     [1, 1, 2, 6, 24, 120]
@@ -26,7 +30,7 @@ def factorial(n):
     Traceback (most recent call last):
         ...
     ValueError: n must be exact integer
-    >>> factorial(30.0)
+    >>> factorial(30.0)q
     265252859812191058636308480000000
 
     It must also not be ridiculously large:
@@ -51,7 +55,7 @@ def factorial(n):
     return result
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":   # Make sure the doctests do not run when loading the module.
     import doctest
     print(doctest.testmod())
 
@@ -60,4 +64,8 @@ if __name__ == "__main__":
 
     # To run tests from a file:
     # print(doctest.testfile("my_doctest.txt"))
+
+    print(factorial.__doc__)
+    # In Python prompt you can type:
+    #     help(factorial)
 
