@@ -30,7 +30,7 @@ def factorial(n):
     Traceback (most recent call last):
         ...
     ValueError: n must be exact integer
-    >>> factorial(30.0)q
+    >>> factorial(30.0)
     265252859812191058636308480000000
 
     It must also not be ridiculously large:
@@ -65,7 +65,7 @@ if __name__ == "__main__":   # Make sure the doctests do not run when loading th
     # To run tests from a file:
     # print(doctest.testfile("my_doctest.txt"))
 
-    print(factorial.__doc__)
+    # print(factorial.__doc__)
     # In Python prompt you can type:
     #     help(factorial)
 

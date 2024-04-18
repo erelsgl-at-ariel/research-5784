@@ -35,7 +35,7 @@
 * [Dividing a Graphical Cake (Bei and Suksompong, 2019)](https://arxiv.org/pdf/1910.14129.pdf#subsection.4.1) - ליחיד (פרק 4 - מציאת contiguous oriented labeling).
 * [Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - לזוג (או ליחיד בלי פרק 5).
 * ~[Approximability of the Firefighter Problem (Anshelevich, Chakrabarty, Hate and Swamy, 2012)](https://link.springer.com/article/10.1007/s00453-010-9469-y) -  ~ תפוס
-* [Solving the Many to Many assignment problem by improving the Kuhn–Munkres algorithm with backtracking (Zhu Liu Zhang Zhu Teng Teng 2016)](https://www.sciencedirect.com/science/article/pii/S0304397516000037) - לזוג.
+* ~[Solving the Many to Many assignment problem by improving the Kuhn–Munkres algorithm with backtracking (Zhu Liu Zhang Zhu Teng Teng 2016)](https://www.sciencedirect.com/science/article/pii/S0304397516000037) - לזוג.~   תפוס (דור ותום)
 * [Fairness in Routing and Load Balancing (Kleinberg Rabani and Tardos, 2001)](https://www.sciencedirect.com/science/article/pii/S0022000001917520) - ליחיד (פרקים 1--2) או לזוג (גם פרק 3).
 
 
@@ -49,6 +49,7 @@
 * ~[Hybrid recursive number partitioning (Korf, 2011)](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewPaper/3364) - לזוג.~תפוס
 * ~[Cached iterative weakening (Schreiber and Korf, 2014)](https://ojs.aaai.org/index.php/AAAI/article/view/9122) - ליחיד או לזוג~ - תפוס (איתן ושילה).
 * [Polynomial time algorithms for minimizing the weighted number of late jobs on a single machine with equal processing times (Baptiste, 1999)](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-1425(199911/12)2:6%3C245::AID-JOS28%3E3.0.CO;2-5) - ליחיד; או לזוג בתוספת המאמר הקצר הזה: https://arxiv.org/pdf/cs/0410046
+* [An asymptotic fully polynomial time approximation scheme for bin covering (Jansen and Solis-Oba, 2003)](https://link.springer.com/chapter/10.1007/3-540-36136-7_16) - ליחיד.
 
 
 ##  חלוקה הוגנת של מקומות בקורסים בין סטודנטים
