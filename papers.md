@@ -61,7 +61,7 @@
 * [Course Match: A Large-Scale Implementation of Approximate Competitive Equilibrium from Equal Incomes for Combinatorial  Allocation (2017)](https://pubsonline.informs.org/doi/10.1287/opre.2016.1544) - לזוג - תפוס (אורי ואביב).
 * ~[Finding Approximate Competitive Equilibria: Efficient and Fair Course Allocation (2010)](https://dl.acm.org/doi/abs/10.5555/1838206.1838323) - ליחיד~ - תפוס (תהל).
 * [Machine Learning-Powered Course Allocation (Soumalias Zamanlooy Weissteiner Seuken, 2022)](https://arxiv.org/abs/2210.00954) - לזוג (דרוש ידע בלמידת מכונה).
-* [Course bidding at business schools (Sonmez and Unver, 2010)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-2354.2009.00572.x) - ליחיד (האלגוריתם בפרק 5).
+* ~[Course bidding at business schools (Sonmez and Unver, 2010)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-2354.2009.00572.x) - ליחיד (האלגוריתם בפרק 5).~ - תפוס (צחי)
 * [The Combinatorial Assignment Problem (Budish, 2011)](https://doi.org/10.1086%2F664613) - לזוג.
 * אפשר למצוא עוד מאמרים בנושא כאן: [https://en.wikipedia.org/wiki/Course_allocation](Course allocation).
 
