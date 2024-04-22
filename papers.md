@@ -73,7 +73,7 @@
 
 * [On Achieving Fairness and Stability in Many-to-One Matchings (Narang Biswas and Narahari 2022)](https://arxiv.org/abs/2009.05823) - ליחיד (אלגוריתמים 1,2) או לזוג (גם אלגוריתמים 3,4) או שלשה (גם אלגוריתם 5).
 
-* [The Santa Claus Problem (Bansal and Sviridenko 2006)](https://dl.acm.org/doi/pdf/10.1145/1132516.1132522) - ליחיד (פרקים 1--5) או לזוג (גם פרק 6).
+* ~[The Santa Claus Problem (Bansal and Sviridenko 2006)](https://dl.acm.org/doi/pdf/10.1145/1132516.1132522) - ליחיד (פרקים 1--5) או לזוג (גם פרק 6).~ - תפוס (הדר ויובל).
 * [Santa claus meets hypergraph matchings (Asadpour and Feige and Saberi, 2012)](https://dl.acm.org/doi/abs/10.1145/2229163.2229168) - ליחיד. אפשר לעשות בזוג יחד עם המאמר הבא.
 * [Quasi-Polynomial Local Search for Restricted Max-Min Fair Allocation](https://dl.acm.org/doi/abs/10.1145/2818695) - ליחיד. אפשר לעשות בזוג יחד עם המאמר הקודם.
 * [Leximin Allocations in the Real World (Kurokawa Procaccia and Shah, 2020)](https://www.sciencedirect.com/science/article/pii/S0004370208001495) -  ליחיד (אלגוריתם 2) או לזוג (גם אלגוריתם 3).
@@ -83,7 +83,7 @@
 * [A reduction from chores allocation to job scheduling (Huang et al, 2023)](https://arxiv.org/abs/2302.04581) - ליחיד (אלגוריתם 1) או לזוג (גם אלגוריתם 4+5).
 * [Ordinal Maximin Share Approximation for Chores (Hosseini et al, 2022)](https://arxiv.org/abs/2201.07424) - ליחיד (אלגוריתם 1) או לזוג (גם אלגוריתם 2+3).
 * [Ordinal Maximin Share Approximation for Goods (Hosseini et al, 2022)](https://www.jair.org/index.php/jair/article/view/13317) - ליחיד (אלגוריתם 3) או לזוג (גם אלגוריתם 2+1).
-* [On Worst-Case Allocations in the Presence of Indivisible Goods (Markakis and Psomas, 2011)](https://link.springer.com/chapter/10.1007/978-3-642-25510-6_24) - ליחיד (אלגוריתם 1).
+* ~[On Worst-Case Allocations in the Presence of Indivisible Goods (Markakis and Psomas, 2011)](https://link.springer.com/chapter/10.1007/978-3-642-25510-6_24) - ליחיד (אלגוריתם 1).~ תפוס (שירה)
 * [Simplification and Improvement of MMS Approximation (Akrami Garg Sharma Taki 2023)](https://arxiv.org/abs/2303.16788) - לזוג או שלישיה.
 * [Proportional division of indivisible items (Brams et al, 2014)](https://mpra.ub.uni-muenchen.de/56587/) - ליחיד.
 * [The Unreasonable Fairness of Maximum Nash Welfare (Caragiannis et al, 2019)](http://eprints.gla.ac.uk/123283/1/123283.pdf) - ליחיד.
