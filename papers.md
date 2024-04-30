@@ -87,7 +87,7 @@
 * [Simplification and Improvement of MMS Approximation (Akrami Garg Sharma Taki 2023)](https://arxiv.org/abs/2303.16788) - לזוג או שלישיה.
 * [Proportional division of indivisible items (Brams et al, 2014)](https://mpra.ub.uni-muenchen.de/56587/) - ליחיד.
 * [The Unreasonable Fairness of Maximum Nash Welfare (Caragiannis et al, 2019)](http://eprints.gla.ac.uk/123283/1/123283.pdf) - ליחיד.
-* [Maximin-Aware Allocations of Indivisible Goods (Chan et al, 2019)](https://arxiv.org/abs/1905.09969) - ליחיד.
+* ~[Maximin-Aware Allocations of Indivisible Goods (Chan et al, 2019)](https://arxiv.org/abs/1905.09969) - ליחיד.~ - תפוס (סוניה).
 * [Beating 1/2 for EFX and GMMS (Amanatidis et al, 2020)](https://doi.org/10.1016%2Fj.tcs.2020.07.006) - ליחיד.
 * [The Virtue of Donating Items (Caragiannis et al, 2019)](https://arxiv.org/abs/1902.04319) - ליחיד.
 * [Approximation Algorithms for Maximin Fair Division (Barman and Krishnamurthy, 2020)](https://dl.acm.org/doi/abs/10.1145/3381525) - ליחיד (אלגוריתמים 1, 2, 5). 
