@@ -32,8 +32,8 @@
 [networkz](https://github.com/ariel-research/networkz/).
 
 * [Fair integral network flow (Frank and Murota, 2022)](https://arxiv.org/abs/1907.02673) - לזוג.
-* [Dividing a Graphical Cake (Bei and Suksompong, 2019)](https://arxiv.org/pdf/1910.14129.pdf#subsection.4.1) - ליחיד (פרק 4 - מציאת contiguous oriented labeling).
-* ~[Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - לזוג (או ליחיד בלי פרק 5).~ - תפוס (שירה וניב)
+* ~[Dividing a Graphical Cake (Bei and Suksompong, 2019)](https://arxiv.org/pdf/1910.14129.pdf#subsection.4.1) - ליחיד (פרק 4 - מציאת contiguous oriented labeling).~ - תפוס (אוריה).
+* [Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - לזוג (או ליחיד בלי פרק 5).
 * ~[Approximability of the Firefighter Problem (Anshelevich, Chakrabarty, Hate and Swamy, 2012)](https://link.springer.com/article/10.1007/s00453-010-9469-y) -  ~ תפוס
 * ~[Solving the Many to Many assignment problem by improving the Kuhn–Munkres algorithm with backtracking (Zhu Liu Zhang Zhu Teng Teng 2016)](https://www.sciencedirect.com/science/article/pii/S0304397516000037) - לזוג.~   תפוס (דור ותום)
 * [Fairness in Routing and Load Balancing (Kleinberg Rabani and Tardos, 2001)](https://www.sciencedirect.com/science/article/pii/S0022000001917520) - ליחיד (פרקים 1--2) או לזוג (גם פרק 3).
@@ -101,7 +101,7 @@
 * [Almost Envy-Free Allocations with Connected Bundles (Bilo et al, 2018)](https://arxiv.org/abs/1808.09406) - לזוג.
 * [EFX Exists for Three Agents (Chaudhury et al, 2020))](https://arxiv.org/abs/2002.05119) - לזוג.
 * [A Little Charity Guarantees Almost Envy-Freeness (Chaudhury et al, 2020)](https://epubs.siam.org/doi/abs/10.1137/20M1359134) - לזוג.
-* [Equitable distribution of indivisible objects (Demko and Hill, 1988)](https://www.sciencedirect.com/science/article/abs/pii/0165489688900479) - לזוג.
+* ~[Equitable distribution of indivisible objects (Demko and Hill, 1988)](https://www.sciencedirect.com/science/article/abs/pii/0165489688900479) - לזוג.~ - תפוס (ניב ושירה).
 * [Worst case compromises in matroids (Gourvet et al, 2015)](https://www.sciencedirect.com/science/article/pii/S0304397515003722#br0150) - לזוג.
 * [Approximately Fair Allocations of Indivisible Goods (Lipton et al., 2004)](https://dl.acm.org/doi/pdf/10.1145/988772.988792) - ליחיד (משפטים 2.1, 3).
 * [Towards Optimal Subsidy Bounds for Envy-freeable Allocations (Kawase Makino Sumita Tamura Yokoo 2023)](https://arxiv.org/abs/2308.11230)
