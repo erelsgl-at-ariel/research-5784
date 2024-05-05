@@ -131,7 +131,7 @@
 * [Computing leximin-optimal solutions in constraint networks (Bouveret and Lemaitre, 2009)](https://www.sciencedirect.com/science/article/pii/S0004370208001495) - ליחיד (אלגוריתמים 1,2) או לזוג (גם 3,4) או לשלשה (גם 5).
 
 ## אלגוריתמים נוספים:
-* [Independent sets with domination constraints (Halldórsson, Kratochvíl, Telle; 1998)](https://www.sciencedirect.com/science/article/pii/S0166218X99001249)- ליחיד או לזוג.
+* ~[Independent sets with domination constraints (Halldórsson, Kratochvíl, Telle; 1998)](https://www.sciencedirect.com/science/article/pii/S0166218X99001249)- ליחיד או לזוג.~  -תפוס (אור).
 * [Improved Approximation for 3-Dimensional Matching via Bounded Pathwidth Local Search (Cygan, 2013)](https://arxiv.org/abs/1304.1424)- ליחיד או לזוג.
 * [Distributed Algorithms for Matching in Hypergraphs (Hanguir and Stein, 2009)](https://arxiv.org/abs/2009.09605)- ליחיד או לזוג.
 
