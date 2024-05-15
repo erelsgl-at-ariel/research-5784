@@ -47,7 +47,7 @@ def test_sub():
 import pytest
 
 def test_raise():
-    with pytest.raises(ValueError):
+    with pytest.raises(TypeError):
         Gymatria.get_value()
 
 # Run from the command line:
