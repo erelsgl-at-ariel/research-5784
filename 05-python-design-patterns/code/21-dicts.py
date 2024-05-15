@@ -45,6 +45,4 @@ def greedy(numbins: int, items: Dict[str, float]):
 
 if __name__ == "__main__":
     import doctest
-
-    (failures, tests) = doctest.testmod(report=True)
-    print("{} failures, {} tests".format(failures, tests))
+    print(doctest.testmod())

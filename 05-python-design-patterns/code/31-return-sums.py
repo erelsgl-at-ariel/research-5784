@@ -107,9 +107,7 @@ def benchmark(numbins: int, numitems: int):
 
 if __name__ == "__main__":
     import doctest
-
-    (failures, tests) = doctest.testmod(report=True)
-    print("{} failures, {} tests".format(failures, tests))
+    print(doctest.testmod())
 
     numbins=3
     for numitems in map(lambda x: 2**x, range(10,25)):

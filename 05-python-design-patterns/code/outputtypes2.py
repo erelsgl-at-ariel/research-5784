@@ -1,5 +1,7 @@
 """
 Define the various available output formats for a partition algorithm.
+
+For file 50-FlyWeight.
 """
 
 from abc import ABC

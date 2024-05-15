@@ -1,5 +1,5 @@
 """
-Number partitioning algorithms - sending the algorithm as argument - strategy pattern.
+Number partitioning algorithms - FlyWeight pattern.
 
 Author: Erel Segal-Halevi
 Since: 2022-03
