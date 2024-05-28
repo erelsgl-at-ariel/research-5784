@@ -5,7 +5,7 @@ Demo 1: Basic usage.
 import experiments_csv, logging
 
 ex = experiments_csv.Experiment("results/", "demo1.csv")
-ex.logger.setLevel(logging.INFO)
+ex.logger.setLevel(logging.INFO) # Show every individual experiment arguments + results.
 
 
 def add_three_numbers(x, y, z):
