@@ -1,3 +1,7 @@
+"""
+A utility to print the head of a very large file.
+"""
+
 import itertools
 source = "c:\\users\\user\\Desktop\\national-budget.csv"
 target = "c:\\users\\user\\Desktop\\national-budget-1000.csv"
