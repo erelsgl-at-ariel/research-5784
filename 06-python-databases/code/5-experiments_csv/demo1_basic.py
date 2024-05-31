@@ -11,7 +11,10 @@ ex.logger.setLevel(logging.INFO) # Show every individual experiment arguments + 
 def add_three_numbers(x, y, z):
     # This is a dummy example of a function for running an "experiment".
     # Note that it must return a dict.
-    return {"sum": (x+y+z)}
+    return {
+        "sum": (x+y+z), 
+        "product": x*y*z
+    }
 
 print("\n\nFIRST EXPERIMENT\n")
 input_ranges = {
