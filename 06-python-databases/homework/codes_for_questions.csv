@@ -1,0 +1,222 @@
+﻿Variable,Position,Label,Measurement Level,Role,Column Width,Alignment,Print Format,Write Format
+id,1,<none>,Scale,Input,12,Right,F10,F10
+ext_id,2,<none>,Nominal,Input,12,Right,F10,F10
+start,3,<none>,Nominal,Input,22,Left,A20,A20
+finish,4,<none>,Nominal,Input,22,Left,A20,A20
+Q2,5,בחירות מפלגתיות,Nominal,Input,12,Right,F10,F10
+Q3_1,6,מחל - הליכוד בהנהגת בנימין נתניהו לראשות הממשלה,Nominal,Input,12,Right,F10,F10
+Q3_2,7,פה - יש עתיד בראשות יאיר לפיד,Nominal,Input,12,Right,F10,F10
+Q3_3,8,"שס - התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ""ל",Nominal,Input,12,Right,F10,F10
+Q3_4,9,כן - כחול לבן בראשות בני גנץ,Nominal,Input,12,Right,F10,F10
+Q3_5,10,ב - ימינה בראשות נפתלי בנט,Nominal,Input,12,Right,F10,F10
+Q3_6,11,אמת - מפלגת העבודה בראשות מרב מיכאלי,Nominal,Input,12,Right,F10,F10
+Q3_7,12,"ג - יהדות התורה והשבת, אגודת ישראל - דגל התורה",Nominal,Input,12,Right,F10,F10
+Q3_8,13,ל - ישראל ביתנו בראשות אביגדור ליברמן,Nominal,Input,12,Right,F10,F10
+Q3_9,14,ט - הציונות הדתית בראשות בצלאל סמוטריץ',Nominal,Input,12,Right,F10,F10
+Q3_10,15,"ודעם - הרשימה המשותפת (חד""ש, תע""ל, בל""ד)",Nominal,Input,12,Right,F10,F10
+Q3_11,16,ת - תקווה חדשה בהנהגת גדעון סער לראשות הממשלה,Nominal,Input,12,Right,F10,F10
+Q3_12,17,מרצ - השמאל של ישראל,Nominal,Input,12,Right,F10,F10
+Q3_13,18,עם - הרשימה הערבית המאוחדת,Nominal,Input,12,Right,F10,F10
+Q3_14,19,יז - הכלכלית החדשה בראשות פרופסור ירון זליכה,Nominal,Input,12,Right,F10,F10
+Q3_15,20,ר - רפא - רק בריאות בראשות דוקטור אריה אבני,Nominal,Input,12,Right,F10,F10
+Q3_16,21,מפלגה אחרת,Nominal,Input,12,Right,F10,F10
+Q3_17,22,אף מפלגה אינה קרובה לדעותיי,Nominal,Input,12,Right,F10,F10
+Q4,23,בחירות אישיות,Scale,Input,12,Right,F10,F10
+Q5_1,24, מועמדי מחל - הליכוד:,Nominal,Input,12,Right,F10,F10
+Q5_2,25, 1 בנימין נתניהו,Nominal,Input,12,Right,F10,F10
+Q5_3,26, 2 יולי אדלשטיין,Nominal,Input,12,Right,F10,F10
+Q5_4,27, 3 ישראל כץ,Nominal,Input,12,Right,F10,F10
+Q5_5,28, 4 מירי רגב,Nominal,Input,12,Right,F10,F10
+Q5_6,29, 5 יריב לוין,Nominal,Input,12,Right,F10,F10
+Q5_7,30, 6 יואב גלנט,Nominal,Input,12,Right,F10,F10
+Q5_8,31, 7 ניר ברקת,Nominal,Input,12,Right,F10,F10
+Q5_9,32, 8 גילה גמליאל,Nominal,Input,12,Right,F10,F10
+Q5_10,33, 9 אבי דיכטר,Nominal,Input,12,Right,F10,F10
+Q5_11,34, 10גלית דיסטל-אטבריאן,Nominal,Input,12,Right,F10,F10
+Q5_12,35, 11 חיים כץ,Nominal,Input,12,Right,F10,F10
+Q5_13,36, 12אלי כהן,Nominal,Input,12,Right,F10,F10
+Q5_14,37, 13צחי הנגבי,Nominal,Input,12,Right,F10,F10
+Q5_15,38, 14אופיר אקוניס,Nominal,Input,12,Right,F10,F10
+Q5_16,39, 15יובל שטייניץ,Nominal,Input,12,Right,F10,F10
+Q5_17,40, 16דודי אמסלם,Nominal,Input,12,Right,F10,F10
+Q5_18,41, 17גדי יברקן,Nominal,Input,12,Right,F10,F10
+Q5_19,42, 18אמיר אוחנה,Nominal,Input,12,Right,F10,F10
+Q5_20,43, 19אופיר כץ,Nominal,Input,12,Right,F10,F10
+Q5_21,44, 20אתי עטייה,Nominal,Input,12,Right,F10,F10
+Q5_22,45, 21יואב קיש,Nominal,Input,12,Right,F10,F10
+Q5_23,46, 22דוד ביטן,Nominal,Input,12,Right,F10,F10
+Q5_24,47, 23קרן ברק,Nominal,Input,12,Right,F10,F10
+Q5_25,48, 24שלמה קרעי,Nominal,Input,12,Right,F10,F10
+Q5_26,49, 25מיקי זוהר,Nominal,Input,12,Right,F10,F10
+Q5_27,50, 26אורלי לוי-אבקסיס,Nominal,Input,12,Right,F10,F10
+Q5_28,51, 27קטי שטרית,Nominal,Input,12,Right,F10,F10
+Q5_29,52, 28אופיר סופר,Nominal,Input,12,Right,F10,F10
+Q5_30,53, 29פטין מולא,Nominal,Input,12,Right,F10,F10
+Q5_31,54, 30מאי גולן,Nominal,Input,12,Right,F10,F10
+Q5_32,55, 31טלי פלוסקוב,Nominal,Input,12,Right,F10,F10
+Q5_33,56, 32עוזי דיין,Nominal,Input,12,Right,F10,F10
+Q5_34,57, 33מועמד|ת אחר|ת מרשימת הליכ,Nominal,Input,12,Right,F10,F10
+Q5_35,58, מועמדי פה - יש עתיד:,Nominal,Input,12,Right,F10,F10
+Q5_36,59, 1 יאיר לפיד,Nominal,Input,12,Right,F10,F10
+Q5_37,60, 2 אורנה ברביבאי,Nominal,Input,12,Right,F10,F10
+Q5_38,61, 3 מאיר כהן,Nominal,Input,12,Right,F10,F10
+Q5_39,62, 4 קארין אלהרר,Nominal,Input,12,Right,F10,F10
+Q5_40,63, 5 מירב כהן,Nominal,Input,12,Right,F10,F10
+Q5_41,64, 6 יואל רזבוזוב,Nominal,Input,12,Right,F10,F10
+Q5_42,65, 7 אלעזר שטרן,Nominal,Input,12,Right,F10,F10
+Q5_43,66, 8 מיקי לוי,Nominal,Input,12,Right,F10,F10
+Q5_44,67, 9 מירב בן-ארי,Nominal,Input,12,Right,F10,F10
+Q5_45,68, 10רם בן ברק,Nominal,Input,12,Right,F10,F10
+Q5_46,69, 11 יואב סגלוביץ,Nominal,Input,12,Right,F10,F10
+Q5_47,70, 12בועז טופורובסקי,Nominal,Input,12,Right,F10,F10
+Q5_48,71, 13עידן רול,Nominal,Input,12,Right,F10,F10
+Q5_49,72, 14יוראי להב-הרצנו,Nominal,Input,12,Right,F10,F10
+Q5_50,73, 15ולדימיר בליאק,Nominal,Input,12,Right,F10,F10
+Q5_51,74, 16רון כץ,Nominal,Input,12,Right,F10,F10
+Q5_52,75, 17נירה שפק,Nominal,Input,12,Right,F10,F10
+Q5_53,76, 18טניה מזרסקי,Nominal,Input,12,Right,F10,F10
+Q5_54,77, 19מועמד|ת אחר|ת מרשימת יש ע,Nominal,Input,12,Right,F10,F10
+Q5_55,78, מועמדי שס:,Nominal,Input,12,Right,F10,F10
+Q5_56,79, 1 אריה דרעי,Nominal,Input,12,Right,F10,F10
+Q5_57,80, 2 יעקב מרגי,Nominal,Input,12,Right,F10,F10
+Q5_58,81, 3 יואב בן-צור,Nominal,Input,12,Right,F10,F10
+Q5_59,82, 4 מיכאל מלכיאלי,Nominal,Input,12,Right,F10,F10
+Q5_60,83, 5 חיים ביטון,Nominal,Input,12,Right,F10,F10
+Q5_61,84, 6 משה ארבל,Nominal,Input,12,Right,F10,F10
+Q5_62,85, 7 ינון אזולאי,Nominal,Input,12,Right,F10,F10
+Q5_63,86, 8 משה אבוטבול,Nominal,Input,12,Right,F10,F10
+Q5_64,87, 9 אוריאל בוסו,Nominal,Input,12,Right,F10,F10
+Q5_65,88, 10יוסי טייב,Nominal,Input,12,Right,F10,F10
+Q5_66,89, 11 מועמד|ת אחר|ת מרשימת שס,Nominal,Input,12,Right,F10,F10
+Q5_67,90, מועמדי כן - כחול לבן:,Nominal,Input,12,Right,F10,F10
+Q5_68,91, 1 בני גנץ,Nominal,Input,12,Right,F10,F10
+Q5_69,92, 2 פנינה תמנו-שטה,Nominal,Input,12,Right,F10,F10
+Q5_70,93, 3 חילי טרופר,Nominal,Input,12,Right,F10,F10
+Q5_71,94, 4 מיכאל ביטון,Nominal,Input,12,Right,F10,F10
+Q5_72,95, 5 אורית פרקש-הכהן,Nominal,Input,12,Right,F10,F10
+Q5_73,96, 6 אלון שוסטר,Nominal,Input,12,Right,F10,F10
+Q5_74,97, 7 איתן גינזבורג,Nominal,Input,12,Right,F10,F10
+Q5_75,98, 8 יעל רון בן משה,Nominal,Input,12,Right,F10,F10
+Q5_76,99, 9 מועמד|ת אחר|ת מרשימת כחול,Nominal,Input,12,Right,F10,F10
+Q5_77,100, מועמדי ב - ימינה:,Nominal,Input,12,Right,F10,F10
+Q5_78,101, 1 נפתלי בנט,Nominal,Input,12,Right,F10,F10
+Q5_79,102, 2 איילת שקד,Nominal,Input,12,Right,F10,F10
+Q5_80,103, 3 אלון דוידי,Nominal,Input,12,Right,F10,F10
+Q5_81,104, 4 מתן כהנא,Nominal,Input,12,Right,F10,F10
+Q5_82,105, 5 עמיחי שיקלי,Nominal,Input,12,Right,F10,F10
+Q5_83,106, 6 ניר אורבך,Nominal,Input,12,Right,F10,F10
+Q5_84,107, 7 אביר קארה,Nominal,Input,12,Right,F10,F10
+Q5_85,108, 8 עידית סילמן,Nominal,Input,12,Right,F10,F10
+Q5_86,109, 9 מועמד|ת אחר|ת מרשימת ימינ,Nominal,Input,12,Right,F10,F10
+Q5_87,110, מועמדי אמת - מפלגת העבודה:,Nominal,Input,12,Right,F10,F10
+Q5_88,111, 1 מרב מיכאלי,Nominal,Input,12,Right,F10,F10
+Q5_89,112, 2 עמר בר לב,Nominal,Input,12,Right,F10,F10
+Q5_90,113, 3 אמילי מואטי,Nominal,Input,12,Right,F10,F10
+Q5_91,114, 4 גלעד קריב,Nominal,Input,12,Right,F10,F10
+Q5_92,115, 5 אפרת רייטן,Nominal,Input,12,Right,F10,F10
+Q5_93,116, 6 רם שפע,Nominal,Input,12,Right,F10,F10
+Q5_94,117, 7 אבתיסאם מראענה,Nominal,Input,12,Right,F10,F10
+Q5_95,118, 8 נחמן שי,Nominal,Input,12,Right,F10,F10
+Q5_96,119, 9 מועמד|ת אחר|ת מרשימת העבו,Nominal,Input,12,Right,F10,F10
+Q5_97,120, מועמדי ג - יהדות התורה:,Nominal,Input,12,Right,F10,F10
+Q5_98,121, 1 משה גפני,Nominal,Input,12,Right,F10,F10
+Q5_99,122, 2 יעקב ליצמן,Nominal,Input,12,Right,F10,F10
+Q5_100,123, 3 אורי מקלב,Nominal,Input,12,Right,F10,F10
+Q5_101,124, 4 מאיר פרוש,Nominal,Input,12,Right,F10,F10
+Q5_102,125, 5 יעקב אשר,Nominal,Input,12,Right,F10,F10
+Q5_103,126, 6 ישראל אייכלר,Nominal,Input,12,Right,F10,F10
+Q5_104,127, 7 יצחק פינדרוס,Nominal,Input,12,Right,F10,F10
+Q5_105,128, 8 יעקב טסלר,Nominal,Input,12,Right,F10,F10
+Q5_106,129, 9 מועמד|ת אחר|ת מרשימת יהד,Nominal,Input,12,Right,F10,F10
+Q5_107,130, מועמדי ל - ישראל ביתנו:,Nominal,Input,12,Right,F10,F10
+Q5_108,131, 1 אביגדור ליברמן,Nominal,Input,12,Right,F10,F10
+Q5_109,132, 2 עודד פורר,Nominal,Input,12,Right,F10,F10
+Q5_110,133, 3 יבגני סובה,Nominal,Input,12,Right,F10,F10
+Q5_111,134, 4 אלי אבידר,Nominal,Input,12,Right,F10,F10
+Q5_112,135, 5 יוליה מלינובסקי,Nominal,Input,12,Right,F10,F10
+Q5_113,136, 6 חמד עמאר,Nominal,Input,12,Right,F10,F10
+Q5_114,137, 7 אלכס קושניר,Nominal,Input,12,Right,F10,F10
+Q5_115,138, 8 יוסי שיין,Nominal,Input,12,Right,F10,F10
+Q5_116,139, 9 מועמד|ת אחר|ת מרשימת ישר,Nominal,Input,12,Right,F10,F10
+Q5_117,140, רשימת ט - הציונות הדתית:,Nominal,Input,12,Right,F10,F10
+Q5_118,141, 1 בצלאל סמוטריץ`,Nominal,Input,12,Right,F10,F10
+Q5_119,142, 2 מיכל וולדיגר,Nominal,Input,12,Right,F10,F10
+Q5_120,143, 3 איתמר בן-גביר,Nominal,Input,12,Right,F10,F10
+Q5_121,144, 4 שמחה רוטמן,Nominal,Input,12,Right,F10,F10
+Q5_122,145, 5 אורית סטרוק,Nominal,Input,12,Right,F10,F10
+Q5_123,146, 6 אבי מעוז,Nominal,Input,12,Right,F10,F10
+Q5_124,147, 7 רחל צינקין,Nominal,Input,12,Right,F10,F10
+Q5_125,148, 8 איינאו אוריאל סנבטו,Nominal,Input,12,Right,F10,F10
+Q5_126,149, 9 מועמד|ת אחר|ת מרשימת הצי,Nominal,Input,12,Right,F10,F10
+Q5_127,150, מועמדי ודעם - הרשימה המשות,Nominal,Input,12,Right,F10,F10
+Q5_128,151, 1 איימן עודה,Nominal,Input,12,Right,F10,F10
+Q5_129,152, 2 אחמד טיבי,Nominal,Input,12,Right,F10,F10
+Q5_130,153, 3 סאמי אבו שחאדה,Nominal,Input,12,Right,F10,F10
+Q5_131,154, 4 עאידה תומא-סלימאן,Nominal,Input,12,Right,F10,F10
+Q5_132,155, 5 אוסאמה סעדי,Nominal,Input,12,Right,F10,F10
+Q5_133,156, 6 עופר כסיף,Nominal,Input,12,Right,F10,F10
+Q5_134,157, 7 היבה יזבק,Nominal,Input,12,Right,F10,F10
+Q5_135,158, 8 יוסף ג`בארין,Nominal,Input,12,Right,F10,F10
+Q5_136,159, 9 ג`ומעה אזבארקה,Nominal,Input,12,Right,F10,F10
+Q5_137,160, 10סונדוס סאלח,Nominal,Input,12,Right,F10,F10
+Q5_138,161, 11 מועמד|ת אחר|ת מהרשימה ה,Nominal,Input,12,Right,F10,F10
+Q5_139,162, מועמדי ת - תקוה חדשה:,Nominal,Input,12,Right,F10,F10
+Q5_140,163, 1 גדעון סער,Nominal,Input,12,Right,F10,F10
+Q5_141,164, 2 יפעת שאשא-ביטון,Nominal,Input,12,Right,F10,F10
+Q5_142,165, 3 זאב אלקין,Nominal,Input,12,Right,F10,F10
+Q5_143,166, 4 יועז הנדל,Nominal,Input,12,Right,F10,F10
+Q5_144,167, 5 שרן השכל,Nominal,Input,12,Right,F10,F10
+Q5_145,168, 6 בנימין זאב בגין,Nominal,Input,12,Right,F10,F10
+Q5_146,169, 7 מאיר יצחק-הלוי,Nominal,Input,12,Right,F10,F10
+Q5_147,170, 8 צבי האוזר,Nominal,Input,12,Right,F10,F10
+Q5_148,171, 9 מיכל שיר,Nominal,Input,12,Right,F10,F10
+Q5_149,172, 10הילה שי-וזאן,Nominal,Input,12,Right,F10,F10
+Q5_150,173, 11 מועמד|ת אחר|ת מרשימת תק,Nominal,Input,12,Right,F10,F10
+Q5_151,174, מועמדי מרצ:,Nominal,Input,12,Right,F10,F10
+Q5_152,175, 1 ניצן הורוביץ,Nominal,Input,12,Right,F10,F10
+Q5_153,176, 2 תמר זנדברג,Nominal,Input,12,Right,F10,F10
+Q5_154,177, 3 יאיר גולן,Nominal,Input,12,Right,F10,F10
+Q5_155,178, 4 ג`ידא רינאווי זועבי,Nominal,Input,12,Right,F10,F10
+Q5_156,179, 5 עיסאווי פריג`,Nominal,Input,12,Right,F10,F10
+Q5_157,180, 6 מוסי רז,Nominal,Input,12,Right,F10,F10
+Q5_158,181, 7 מיכל רוזין,Nominal,Input,12,Right,F10,F10
+Q5_159,182, 8 גבריאלה שוץ לסקי,Nominal,Input,12,Right,F10,F10
+Q5_160,183, 9 מועמד|ת אחר|ת מרשימת מרצ,Nominal,Input,12,Right,F10,F10
+Q5_161,184, מועמדי עם - הרשימה הערבית,Nominal,Input,12,Right,F10,F10
+Q5_162,185, 1 מנסור עבאס,Nominal,Input,12,Right,F10,F10
+Q5_163,186, 2 מאזן גנאים,Nominal,Input,12,Right,F10,F10
+Q5_164,187, 3 וליד טאהא,Nominal,Input,12,Right,F10,F10
+Q5_165,188, 4 סעיד אלח`רומי,Nominal,Input,12,Right,F10,F10
+Q5_166,189, 5 אימאן ח`טיב-יאסין,Nominal,Input,12,Right,F10,F10
+Q5_167,190, 6 מועמד|ת אחר|ת מרשימת רעמ,Nominal,Input,12,Right,F10,F10
+Q5_168,191, מועמדי יז - הכלכלית החדשה:,Nominal,Input,12,Right,F10,F10
+Q5_169,192, 1 ירון זליכה,Nominal,Input,12,Right,F10,F10
+Q5_170,193, 2 אסנת עקירב,Nominal,Input,12,Right,F10,F10
+Q5_171,194, 3 עליאן אלקרינאוי,Nominal,Input,12,Right,F10,F10
+Q5_172,195, 4 מועמד|ת אחר|ת מרשימת הכל,Nominal,Input,12,Right,F10,F10
+Q5_173,196, מועמדי רפא - רק בריאות:,Nominal,Input,12,Right,F10,F10
+Q5_174,197, 1 אריה אבני,Nominal,Input,12,Right,F10,F10
+Q5_175,198, 2 שמואל לויט,Nominal,Input,12,Right,F10,F10
+Q5_176,199, 3 אמנון לבב,Nominal,Input,12,Right,F10,F10
+Q5_177,200, 4 מועמד|ת אחר|ת מרשימת רפא,Nominal,Input,12,Right,F10,F10
+Q6_1,201,בנימין נתניהו,Nominal,Input,12,Right,F10,F10
+Q6_2,202,יאיר לפיד,Nominal,Input,12,Right,F10,F10
+Q6_3,203,בני גנץ,Nominal,Input,12,Right,F10,F10
+Q6_4,204,גדעון סער,Nominal,Input,12,Right,F10,F10
+Q6_5,205,נפתלי בנט,Nominal,Input,12,Right,F10,F10
+Q6_6,206,ניר ברקת,Nominal,Input,12,Right,F10,F10
+Q6_7,207,יולי אדלשטיין,Nominal,Input,12,Right,F10,F10
+Q6_8,208,מישהו|י אחר|ת,Nominal,Input,12,Right,F10,F10
+Q7,209,"לו יכולתם לבחור את שיטת הבחירות העתידית של ישראל, איזו מבין השיטות הבאות הייתם בוחרים?",Nominal,Input,12,Right,F10,F10
+Q8,210,מדוע לדעתך שיטה זו עדיפה?,Nominal,Input,12,Right,F10,F10
+col_1,211,מין,Nominal,Input,12,Right,F10,F10
+col_2,212,קבוצות גיל,Nominal,Input,12,Right,F10,F10
+col_3,213,מחוז,Nominal,Input,12,Right,F10,F10
+col_8,214,מצב משפחתי,Nominal,Input,12,Right,F10,F10
+col_9,215,השכלה,Nominal,Input,12,Right,F10,F10
+col_10,216,דת,Nominal,Input,12,Right,F10,F10
+col_21,217,הכנסה ממוצעת למשפחה,Nominal,Input,12,Right,F10,F10
+col_30,218,real age,Scale,Input,12,Right,F10,F10
+col_42,219,זהות דתית - מצומצם,Nominal,Input,12,Right,F10,F10
+col_2581,220,אזורי חיוג,Nominal,Input,12,Right,F10,F10
+Variables in the working file,,,,,,,,
