@@ -1,6 +1,7 @@
 import time, math
 import concurrent.futures
-import urllib.request
+import requests
+
 WORKERS=4
 
 URLS = [
@@ -11,9 +12,8 @@ URLS = [
     ]
 
 def get_url(url):
-    with urllib.request.urlopen(url) as response:
-        html = response.read()
-    return len(html)
+    response = requests.get(url)
+    return len(response.text)
 
 def sequential():
     start = time.perf_counter()
