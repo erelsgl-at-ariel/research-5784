@@ -32,5 +32,5 @@ def processes():
 
 if __name__ == '__main__':
     sequential()
-    # threads()
-    # processes()
+    threads()
+    processes()

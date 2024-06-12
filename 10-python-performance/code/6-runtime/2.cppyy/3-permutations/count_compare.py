@@ -1,6 +1,6 @@
 #!python3
 
-import time
+from time import perf_counter
 
 import count_permutations
 
@@ -14,13 +14,13 @@ if use_cpp:
 else:
 	print("Using Python implementation")
 
-for N in range(5,14):
+for N in range(5,13):
 	print ("Permutations of 1..{}:".format(N), flush=True)
-	start = time.time()
+	start = perf_counter()
 	if use_cpp:
 		count = cppyy.gbl.count_permutations(N)
 	else:
 		count = count_permutations.count_permutations(N) 
-	end = time.time()
+	end = perf_counter()
 	duration_in_seconds = end-start
-	print("  {} permutations calculated in {} seconds".format(count, duration_in_seconds), flush=True)
+	print(f"  {count} permutations calculated in {duration_in_seconds} seconds", flush=True)

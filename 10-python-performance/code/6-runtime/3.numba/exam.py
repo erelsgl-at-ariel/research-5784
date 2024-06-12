@@ -1,21 +1,21 @@
 import numpy as np
-import time
+from time import perf_counter
 
 x = np.arange(1000000).reshape(1000, 1000)
 
 def go_fast(a): 
-    trace = 0.0
+    sumtanh = 0.0
     for i in range(a.shape[0]):
         for j in range(a.shape[1]):
-            trace += np.tanh(a[i, j])
-    return a + trace
+            sumtanh += np.tanh(a[i, j])
+    return a + sumtanh
 
-start = time.time()
+start = perf_counter()
 go_fast(x)
-end = time.time()
+end = perf_counter()
 print(f"Elapsed (first time) = {end - start}")
 
-start = time.time()
+start = perf_counter()
 go_fast(x)
-end = time.time()
+end = perf_counter()
 print(f"Elapsed (second time) = {end - start}")

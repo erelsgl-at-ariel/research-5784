@@ -1,7 +1,6 @@
 #!python3
 
 import itertools
-import time
 import math
 
 

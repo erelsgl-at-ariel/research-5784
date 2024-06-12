@@ -1,4 +1,4 @@
-from numba import njit, vectorize, int32, int64
+from numba import njit 
 from functools import wraps
 from time import perf_counter
 
@@ -23,7 +23,7 @@ def func(max_x,max_y,max_z):
     return lst
 
 @my_timer
-@njit
+@njit    # njit = like jit with nopython.
 def njit_func(max_x,max_y,max_z):
     lst = []
     for x in range(max_x):

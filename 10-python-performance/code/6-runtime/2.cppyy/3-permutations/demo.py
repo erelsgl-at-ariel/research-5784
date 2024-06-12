@@ -1,10 +1,10 @@
 import itertools
 
-print("Permutations or range:")
+print("Permutations of range:")
 for p in itertools.permutations(range(1,5)):
 	print(p)
 
-print("Permutations or string:")
+print("Permutations of string:")
 for p in itertools.permutations("abcd"):
 	print("".join(p))
 

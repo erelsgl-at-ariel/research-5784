@@ -1,10 +1,9 @@
 #!python3
 
-import time
-
+from time import perf_counter
 import traveling_salesman
 
-use_cpp = False
+use_cpp = True
 
 if use_cpp:
 	print("Using C++ implementation")
@@ -36,8 +35,8 @@ distances = [
 	[1,2,3,4,5,6,7,8,0,10,11],	
 	[1,2,3,4,5,6,7,8,2,8,11],	
 ]
-start = time.process_time()
+start = perf_counter()
 print(find_shortest_path(distances), flush=True)
-end = time.process_time()
+end = perf_counter()
 duration_in_seconds = end-start
 print("Shortest path calculated in {} seconds".format(duration_in_seconds), flush=True)

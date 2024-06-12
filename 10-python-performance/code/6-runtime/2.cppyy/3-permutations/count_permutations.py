@@ -1,7 +1,7 @@
 #!python3
 
 import itertools
-import time
+from time import perf_counter
 
 def count_permutations(N:int)->int:
 	count=0
@@ -12,10 +12,10 @@ def count_permutations(N:int)->int:
 
 if __name__=="__main__":
 	for N in range(1,13):
-		print ("Permutations of 1..{}:".format(N), flush=True)
-		start = time.time()
+		print (f"Permutations of 1..{N}:", flush=True)
+		start = perf_counter()
 		count = count_permutations(N) 
-		end = time.time()
+		end = perf_counter()
 		duration_in_seconds = end-start
-		print("  {} permutations calculated in {} seconds".format(count, duration_in_seconds), flush=True)
+		print(f"  {count} permutations calculated in {duration_in_seconds} seconds", flush=True)
 

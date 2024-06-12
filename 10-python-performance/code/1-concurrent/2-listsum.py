@@ -1,6 +1,6 @@
 import time 
 import concurrent.futures
-WORKERS=2
+WORKERS=4
 
 def sum_list(thelist:list):
 	s = 0
@@ -19,10 +19,12 @@ def sequential():
 def threads():
     start = time.perf_counter()
     with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as executor:
-        future_sum1 = executor.submit(sum_list, big_list[0:LISTSIZE//2])
-        future_sum2 = executor.submit(sum_list, big_list[LISTSIZE//2:LISTSIZE])
+        future_sum1 = executor.submit(sum_list, big_list[0:LISTSIZE//4])
+        future_sum2 = executor.submit(sum_list, big_list[LISTSIZE//4:LISTSIZE//2])
+        future_sum3 = executor.submit(sum_list, big_list[LISTSIZE//2:3*LISTSIZE//4])
+        future_sum4 = executor.submit(sum_list, big_list[3*LISTSIZE//4:LISTSIZE])
         big_sum = 0
-        for future in concurrent.futures.as_completed([future_sum1, future_sum2]):   # return each result as soon as it is completed:
+        for future in concurrent.futures.as_completed([future_sum1, future_sum2, future_sum3, future_sum4]):   # return each result as soon as it is completed:
             r = future.result()
             print("Partial sum: ", r)
             big_sum += r
@@ -31,10 +33,12 @@ def threads():
 def processes():
     start = time.perf_counter()
     with concurrent.futures.ProcessPoolExecutor(max_workers=WORKERS) as executor:
-        future_sum1 = executor.submit(sum_list, big_list[0:LISTSIZE//2])
-        future_sum2 = executor.submit(sum_list, big_list[LISTSIZE//2:LISTSIZE])
+        future_sum1 = executor.submit(sum_list, big_list[0:LISTSIZE//4])
+        future_sum2 = executor.submit(sum_list, big_list[LISTSIZE//4:LISTSIZE//2])
+        future_sum3 = executor.submit(sum_list, big_list[LISTSIZE//2:3*LISTSIZE//4])
+        future_sum4 = executor.submit(sum_list, big_list[3*LISTSIZE//4:LISTSIZE])
         big_sum = 0
-        for future in concurrent.futures.as_completed([future_sum1, future_sum2]):   # return each result as soon as it is completed:
+        for future in concurrent.futures.as_completed([future_sum1, future_sum2, future_sum3, future_sum4]):   # return each result as soon as it is completed:
             r = future.result()
             print("Partial sum: ", r)
             big_sum += r
@@ -42,6 +46,6 @@ def processes():
 
 
 if __name__ == '__main__':
-    # sequential()
-    # threads()
+    sequential()
+    threads()
     processes()
