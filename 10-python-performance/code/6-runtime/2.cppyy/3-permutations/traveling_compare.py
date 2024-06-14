@@ -3,7 +3,7 @@
 from time import perf_counter
 import traveling_salesman
 
-use_cpp = True
+use_cpp = False
 
 if use_cpp:
 	print("Using C++ implementation")
