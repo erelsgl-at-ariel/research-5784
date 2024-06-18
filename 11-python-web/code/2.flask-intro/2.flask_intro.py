@@ -1,19 +1,23 @@
 from flask import Flask
 app = Flask(__name__)
 
+import dotenv, os
+dotenv.load_dotenv()  
+
 @app.route('/')
 def hello_world():
     return '''
         <h1>Hello World!!</h1>
-        <a href="/about">About the site</a>
+        <p><a href="/about">About the site</a>
         '''
 
 @app.route('/about')
 def about():
     return '''
         <h2>About</h2>
-        This is a website for Research Algorithms course.
+        <p>This is a website for Research Algorithms course.
+        <p><a href="/">Back to homepage</a>
         '''
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(debug=True, port=os.environ["FLASK_RUN_PORT"])

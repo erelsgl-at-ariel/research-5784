@@ -1,6 +1,9 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
+import dotenv, os
+dotenv.load_dotenv()  # load FLASK_RUN_PORT
+
 users = [
     {'name': 'Joee Javany',
     'email': 'joo@example.com',
@@ -15,7 +18,7 @@ users = [
 
 @app.route('/')
 def hello_world():
-    return render_template('homedynamic.html' , users = users)
+    return render_template('homedynamic.html', users=users)
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(debug=True, port=os.environ["FLASK_RUN_PORT"])

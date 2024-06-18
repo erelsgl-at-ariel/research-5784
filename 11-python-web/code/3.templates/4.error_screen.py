@@ -1,6 +1,9 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
+import dotenv, os
+dotenv.load_dotenv()  # load FLASK_RUN_PORT
+
 users = [
     {'name': 'Joee Javany',
     'email': 'joo@example.com',
@@ -16,4 +19,4 @@ def hello():
     return render_template(template_name , users = users) # No such file in templates/ folder
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(debug=True, port=os.environ["FLASK_RUN_PORT"])
