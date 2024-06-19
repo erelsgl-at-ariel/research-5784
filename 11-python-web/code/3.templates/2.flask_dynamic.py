@@ -21,4 +21,4 @@ def hello_world():
     return render_template('homedynamic.html', users=users)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=os.environ["FLASK_RUN_PORT"])
+    app.run(debug=True, port=os.getenv("FLASK_RUN_PORT"))
