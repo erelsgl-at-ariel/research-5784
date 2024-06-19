@@ -51,15 +51,15 @@ def data():
         return redirect(url_for(myhome.__name__))
 
 import os, pathlib
-def save_picture(form_picture):
+def save_picture(form_picture_data):
     # random_hex = secrets.token_hex(8)
     # _, f_ext = os.path.splitext(form_picture.filename)
     # picture_filename = random_hex + f_ext
-    picture_filename = form_picture.filename
+    picture_filename = form_picture_data.filename
     picture_path = os.path.join(app.root_path, 'static/profile_pics')
     pathlib.Path(picture_path).mkdir(parents=True, exist_ok=True)  # create all folders in the given path.
-    form_picture.save(os.path.join(picture_path, picture_filename))
-    
+    form_picture_data.save(os.path.join(picture_path, picture_filename))
+
     # output_size = (125, 125)
     # img_file = Image.open(form_picture)
     # img_file.thumbnail(output_size)
