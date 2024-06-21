@@ -18,7 +18,7 @@ users = [
 
 @app.route('/')
 def hello_world():
-    return render_template('layoutdynamic.html' , users = users)
+    return render_template('layoutdynamic.html' , users = users, head = "Moriya")
 
 if __name__ == '__main__':
     app.run(debug=True, port=os.getenv("FLASK_RUN_PORT"))

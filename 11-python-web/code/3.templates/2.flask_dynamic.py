@@ -4,7 +4,7 @@ app = Flask(__name__)
 import dotenv, os
 dotenv.load_dotenv()  # load FLASK_RUN_PORT
 
-users = [
+users = [   # Simulates reading from database.
     {'name': 'Joee Javany',
     'email': 'joo@example.com',
     'phone': '111-1111'},
@@ -14,6 +14,9 @@ users = [
     {'name': 'Tami CPP',
     'email': 'cpp-forever@example.com',
     'phone': '222-2222'},
+    {'name': 'Rusty Rust',
+    'email': 'rust@example.com',
+    'phone': '5555555'},
 ]
 
 @app.route('/')

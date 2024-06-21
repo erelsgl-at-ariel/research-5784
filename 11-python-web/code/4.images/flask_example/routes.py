@@ -9,6 +9,7 @@ plt.switch_backend('agg')  # Non-interactive backend for saving PNG images
 
 def plt_to_base64():
     iobytes = io.BytesIO()
+    # plt.savefig("flask_example/static/fig.png", format='png')
     plt.savefig(iobytes, format='png')
     iobytes.seek(0)
     return base64.b64encode(iobytes.read()).decode()
@@ -31,6 +32,7 @@ def plot():
     plt.cla()
     plt.plot(x, np.sin(x))
     img_data = plt_to_base64()
+    # print(len(img_data))
     return render_template('1-image.html', img_data=img_data)
 
 

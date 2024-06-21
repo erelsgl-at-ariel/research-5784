@@ -2,13 +2,14 @@ from flask import Flask
 app = Flask(__name__)
 
 import dotenv, os
-dotenv.load_dotenv()  
+dotenv.load_dotenv()
 
 @app.route('/')
 def hello_world():
     return '''
         <h1>Hello World!!</h1>
         <p><a href="/about">About the site</a>
+        <p><button onclick='window.location.href="/about"'>About the site</button>
         '''
 
 @app.route('/about')
@@ -21,4 +22,3 @@ def about():
 
 if __name__ == '__main__':
     app.run(debug=True, port=os.getenv("FLASK_RUN_PORT"))
-
