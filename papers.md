@@ -58,7 +58,7 @@
 [fairpyx](https://github.com/ariel-research/fairpyx).
 
 * ~[Course Allocation by Proxy Auction (Kominers et al, 2010)](https://link.springer.com/chapter/10.1007/978-3-642-17572-5_49) - ליחיד~ - תפוס (אביהו).
-* [Course Match: A Large-Scale Implementation of Approximate Competitive Equilibrium from Equal Incomes for Combinatorial  Allocation (2017)](https://pubsonline.informs.org/doi/10.1287/opre.2016.1544) - לזוג - תפוס (אורי ואביב).
+* ~[Course Match: A Large-Scale Implementation of Approximate Competitive Equilibrium from Equal Incomes for Combinatorial  Allocation (2017)](https://pubsonline.informs.org/doi/10.1287/opre.2016.1544) - לזוג - תפוס (נעמה ובן).~
 * ~[Finding Approximate Competitive Equilibria: Efficient and Fair Course Allocation (2010)](https://dl.acm.org/doi/abs/10.5555/1838206.1838323) - ליחיד~ - תפוס (תהל).
 * ~[Machine Learning-Powered Course Allocation (Soumalias Zamanlooy Weissteiner Seuken, 2022)](https://arxiv.org/abs/2210.00954) - לזוג (דרוש ידע בלמידת מכונה).~ - תפוס (נעמה ובן).
 * ~[Course bidding at business schools (Sonmez and Unver, 2010)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-2354.2009.00572.x) - ליחיד (האלגוריתם בפרק 5).~ - תפוס (צחי)
