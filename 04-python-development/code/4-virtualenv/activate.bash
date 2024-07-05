@@ -22,6 +22,12 @@ source .venv/bin/activate
 python --version
 pip list 
 
-# 5
+# 5 
+### To install your library, go to its main folder and say:
+pip install -e .
+### To install required packages (otherwise the wrong pytest will be used):
+pip install pytest
+
+# 6
 ## To go back to the global environment:
 deactivate
