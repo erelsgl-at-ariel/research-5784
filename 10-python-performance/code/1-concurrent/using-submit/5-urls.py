@@ -18,19 +18,25 @@ def get_url(url):
 def sequential():
     start = time.perf_counter()
     answers = [get_url(p) for p in URLS]
-    print(f"Sequential: answers={list(answers)}, time={time.perf_counter()-start} sec")
+    print(f"Sequential: answers={answers}, time={time.perf_counter()-start} sec")
 
 def threads():
     start = time.perf_counter()
     with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as executor:
-        answers = executor.map(get_url, URLS)
-    print(f"{WORKERS} threads: answers={list(answers)}, time={time.perf_counter()-start} sec")
+        futures = [executor.submit(get_url, p) for p in URLS] 
+        answers = []
+        for future in concurrent.futures.as_completed(futures):   # return each result as soon as it is completed:
+            answers.append(future.result())
+    print(f"{WORKERS} threads: answers={answers}, time={time.perf_counter()-start} sec")
 
 def processes():
     start = time.perf_counter()
     with concurrent.futures.ProcessPoolExecutor(max_workers=WORKERS) as executor:
-        answers = executor.map(get_url, URLS)
-    print(f"{WORKERS} processes: answers={list(answers)}, time={time.perf_counter()-start} sec")
+        futures = [executor.submit(get_url, p) for p in URLS] 
+        answers = []
+        for future in concurrent.futures.as_completed(futures):   # return each result as soon as it is completed:
+            answers.append(future.result())
+    print(f"{WORKERS} processes: answers={answers}, time={time.perf_counter()-start} sec")
 
 
 if __name__ == '__main__':

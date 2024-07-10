@@ -16,26 +16,18 @@ def sequential():
 
 def threads():
     start = time.perf_counter()
+    parts = [big_list[0:LISTSIZE//4], big_list[LISTSIZE//4:LISTSIZE//2], big_list[LISTSIZE//2:3*LISTSIZE//4], big_list[3*LISTSIZE//4:LISTSIZE]]
     with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as executor:
-        future_sum1 = executor.submit(sum_list, big_list[0:LISTSIZE//2])
-        future_sum2 = executor.submit(sum_list, big_list[LISTSIZE//2:LISTSIZE])
-        big_sum = 0
-        for future in concurrent.futures.as_completed([future_sum1, future_sum2]):   # return each result as soon as it is completed:
-            r = future.result()
-            print("Partial sum: ", r)
-            big_sum += r
+        partial_results = executor.map(sum_list, parts)
+        big_sum = sum(partial_results)
     print(f"{WORKERS} threads: sum={big_sum}, time={time.perf_counter()-start} sec")
 
 def processes():
     start = time.perf_counter()
+    parts = [big_list[0:LISTSIZE//4], big_list[LISTSIZE//4:LISTSIZE//2], big_list[LISTSIZE//2:3*LISTSIZE//4], big_list[3*LISTSIZE//4:LISTSIZE]]
     with concurrent.futures.ProcessPoolExecutor(max_workers=WORKERS) as executor:
-        future_sum1 = executor.submit(sum_list, big_list[0:LISTSIZE//2])
-        future_sum2 = executor.submit(sum_list, big_list[LISTSIZE//2:LISTSIZE])
-        big_sum = 0
-        for future in concurrent.futures.as_completed([future_sum1, future_sum2]):   # return each result as soon as it is completed:
-            r = future.result()
-            print("Partial sum: ", r)
-            big_sum += r
+        partial_results = executor.map(sum_list, parts)
+        big_sum = sum(partial_results)
     print(f"{WORKERS} processes: sum={big_sum}, time={time.perf_counter()-start} sec")
 
 

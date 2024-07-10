@@ -33,14 +33,20 @@ def sequential():
 def threads():
     start = time.perf_counter()
     with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as executor:
-        answers = executor.map(is_prime, NUMBERS)
-    print(f"{WORKERS} threads: answers={list(answers)}, time={time.perf_counter()-start} sec")
+        futures = [executor.submit(is_prime, p) for p in NUMBERS] 
+        answers = []
+        for future in concurrent.futures.as_completed(futures):   # return each result as soon as it is completed:
+            answers.append(future.result())
+    print(f"{WORKERS} threads: answers={answers}, time={time.perf_counter()-start} sec")
 
 def processes():
     start = time.perf_counter()
     with concurrent.futures.ProcessPoolExecutor(max_workers=WORKERS) as executor:
-        answers = executor.map(is_prime, NUMBERS)
-    print(f"{WORKERS} processes: answers={list(answers)}, time={time.perf_counter()-start} sec")
+        futures = [executor.submit(is_prime, p) for p in NUMBERS] 
+        answers = []
+        for future in concurrent.futures.as_completed(futures):   # return each result as soon as it is completed:
+            answers.append(future.result())
+    print(f"{WORKERS} processes: answers={answers}, time={time.perf_counter()-start} sec")
 
 
 if __name__ == '__main__':
