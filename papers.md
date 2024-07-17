@@ -32,8 +32,8 @@
 [networkz](https://github.com/ariel-research/networkz/).
 
 * [Fair integral network flow (Frank and Murota, 2022)](https://arxiv.org/abs/1907.02673) - לזוג.
-* ~[Dividing a Graphical Cake (Bei and Suksompong, 2019)](https://arxiv.org/pdf/1910.14129.pdf#subsection.4.1) - ליחיד (פרק 4 - מציאת contiguous oriented labeling).~ - תפוס (אוריה).
-* [Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - לזוג (או ליחיד בלי פרק 5).
+* [Dividing a Graphical Cake (Bei and Suksompong, 2019)](https://arxiv.org/pdf/1910.14129.pdf#subsection.4.1) - ליחיד (פרק 4 - מציאת contiguous oriented labeling).
+* ~[Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - לזוג (או ליחיד בלי פרק 5).~ - תפוס (אוראל דיין)
 * ~[Approximability of the Firefighter Problem (Anshelevich, Chakrabarty, Hate and Swamy, 2012)](https://link.springer.com/article/10.1007/s00453-010-9469-y) -  ~ תפוס
 * ~[Solving the Many to Many assignment problem by improving the Kuhn–Munkres algorithm with backtracking (Zhu Liu Zhang Zhu Teng Teng 2016)](https://www.sciencedirect.com/science/article/pii/S0304397516000037) - לזוג.~   תפוס (דור ותום)
 * [Fairness in Routing and Load Balancing (Kleinberg Rabani and Tardos, 2001)](https://www.sciencedirect.com/science/article/pii/S0022000001917520) - ליחיד (פרקים 1--2) או לזוג (גם פרק 3).
@@ -142,7 +142,7 @@
 * [Strategic Voting in the Context of Negotiating Teams (Schmerler and Hazon, 2021)](https://arxiv.org/abs/2107.14097) - ליחיד.
 * [Manipulation of k-Coalitional Games on Social Networks (Waxman, Hazon and Kraus, 2021)](https://arxiv.org/abs/2105.09852) - ליחיד.
 * [Beyond majority: Label ranking ensembles based on voting rules (Werbin-Ofir, Dery, Shmueli, 2019)](https://www.sciencedirect.com/science/article/pii/S0957417419304221) - ליחיד.
-* [BoostLR: a boosting-based learning ensemble for label ranking tasks (Dery and Shmueli, 2020)](https://ieeexplore.ieee.org/abstract/document/9205798/) - ליחיד.
+* ~[BoostLR: a boosting-based learning ensemble for label ranking tasks (Dery and Shmueli, 2020)](https://ieeexplore.ieee.org/abstract/document/9205798/) - ליחיד.~ תפוס (אוריה צדוק)
 * ~[Star-Tracker Algorithm for Smartphones and Commercial Micro-Drones (Marbel,  Boaz Ben-Moshe, Yozevitch, 2020)](https://www.mdpi.com/1424-8220/20/4/1106) - ליחיד (אלגוריתמים 1,2) או לזוג (גם אלגוריתמים 3,4).~ - תפוס (אוראל). 
 אפשר לשלב בספריה `opencv`.
 

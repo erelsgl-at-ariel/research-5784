@@ -1,4 +1,5 @@
 * np.seed
 * seaborn
 * No function overloading - potential bugs!
-
+* doctest: ...
+* deepcopy
