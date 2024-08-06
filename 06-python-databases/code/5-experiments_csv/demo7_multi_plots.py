@@ -1,5 +1,5 @@
 """
-Demo 6: plotting experiment results; multiple subplots.
+Demo 7: plotting experiment results; multiple subplots.
 """
 
 from experiments_csv import *

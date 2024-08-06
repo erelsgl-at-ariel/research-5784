@@ -1,5 +1,5 @@
 """
-Demo 5: plotting experiment results.
+Demo 6: plotting experiment results.
 
 To install:
 

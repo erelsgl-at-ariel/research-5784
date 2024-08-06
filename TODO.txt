@@ -1,4 +1,4 @@
 * seaborn
-* No function overloading - potential bugs!
+* Potential bugs: no function overloading!
 * doctest: ...
 * deepcopy / pass by pointer
